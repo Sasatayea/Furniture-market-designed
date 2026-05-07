@@ -1,0 +1,57 @@
+/* ===========================
+   AETHER Admin — Base Styles
+   =========================== */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Storefront footer overrides (kept from original) */
+footer a:hover {
+  color: black !important;
+}
+
+footer h6 {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+/* Scrollbar (for Webkit browsers) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 229, 255, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 229, 255, 0.25);
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 229, 255, 0.25);
+  color: #E8ECF4;
+}
+
+/* Smooth transitions for RTL switching */
+[dir] * {
+  transition-property: margin, padding;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
