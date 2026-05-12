@@ -2,6 +2,8 @@
 
 A premium, fully-responsive e-commerce platform built with React and Material UI, featuring a luxury storefront ("Obsidian Command Center" theme) and a comprehensive back-office Admin Dashboard. 
 
+video link: https://drive.google.com/file/d/1fNrgWkYsIS3HOKMpiYVXMsT05RYTZiM1/view
+
 ## 🌟 Key Features
 
 ### Storefront
